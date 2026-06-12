@@ -14,10 +14,10 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/Sendspin/sendspin-go/internal/discovery"
 	"github.com/Sendspin/sendspin-go/internal/ui"
 	"github.com/Sendspin/sendspin-go/internal/version"
 	"github.com/Sendspin/sendspin-go/pkg/audio/output"
+	"github.com/Sendspin/sendspin-go/pkg/discovery"
 	"github.com/Sendspin/sendspin-go/pkg/sendspin"
 	tea "github.com/charmbracelet/bubbletea"
 )
