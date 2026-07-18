@@ -38,13 +38,6 @@ Makefile/CI/release when editing them.
   the release workflow both fail on one. Use `replace` only in your local
   working tree while developing against an unreleased SDK.
 
-## Notes
-
-- `scripts/quickstart-pi.sh` still downloads release tarballs from the old
-  `sendspin-go` monorepo releases. Repoint `REPO_NAME` to `sendspin-go-cli`
-  once this repo has published its first release (the download 404s before
-  then).
-
 ## Contribution & AI Policy
 
 Follows the [Open Home Foundation AI Policy](https://github.com/music-assistant/.github/blob/main/AI_POLICY.md):

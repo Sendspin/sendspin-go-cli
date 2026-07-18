@@ -13,7 +13,7 @@ on_exit() {
 trap on_exit EXIT
 
 readonly REPO_OWNER="Sendspin"
-readonly REPO_NAME="sendspin-go"
+readonly REPO_NAME="sendspin-go-cli"
 readonly REPO_URL="https://github.com/${REPO_OWNER}/${REPO_NAME}"
 readonly RAW_URL_BASE="https://raw.githubusercontent.com/${REPO_OWNER}/${REPO_NAME}"
 readonly BINARY_NAME="sendspin-player"
