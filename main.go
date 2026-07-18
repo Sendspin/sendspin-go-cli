@@ -14,8 +14,8 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/Sendspin/sendspin-go/internal/ui"
-	"github.com/Sendspin/sendspin-go/internal/version"
+	"github.com/Sendspin/sendspin-go-cli/internal/ui"
+	"github.com/Sendspin/sendspin-go-cli/internal/version"
 	"github.com/Sendspin/sendspin-go/pkg/audio/output"
 	"github.com/Sendspin/sendspin-go/pkg/discovery"
 	"github.com/Sendspin/sendspin-go/pkg/sendspin"
